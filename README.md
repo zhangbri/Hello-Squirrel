@@ -42,11 +42,11 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-- Understanding of ConstraintLayout: Enables complex layouts with efficient flat hierarchy.
-- CardView Usage: Shows how to add visual styling like elevation and rounded corners.
-- Resource Management: Use of dimension, color, and string resources for consistent styling and easy maintenance.
-- View Positioning with Constraints: Demonstrates positioning views within ConstraintLayout using various constraints.
-- Text and Image Customization: Techniques for customizing text appearance and setting image resources.
+- **Understanding of ConstraintLayout:** Enables complex layouts with efficient flat hierarchy.
+- **CardView Usage:** Shows how to add visual styling like elevation and rounded corners.
+- **Resource Management:** Use of dimension, color, and string resources for consistent styling and easy maintenance.
+- **View Positioning with Constraints:** Demonstrates positioning views within ConstraintLayout using various constraints.
+- **Text and Image Customization:** Techniques for customizing text appearance and setting image resources.
 
 ## License
 
