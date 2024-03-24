@@ -1,38 +1,35 @@
-# AND101 Project 1 - Hello, Squirrel!
+# Lab #5: Random Pets 🐶🐱
 
 Submitted by: **Brian Zhang**
 
-Time spent: **3** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Summary
 
-**Hello Squirrel** is an android app that recreates the common "Hello, World!", to introduce ourselves to the neighborhood squirrel 🐿.
+**Random Pet Parade** is an Android app that displays random images of pets, specifically dogs and cats, fetched from external APIs. Users can tap a button to load a new random pet image, alternating between dog and cat pictures.
 
-If I had to describe this project in three (3) emojis, they would be: **😈🖥️🙋🏻‍♂️**
+If I had to describe this project in three (3) emojis, they would be: **🐕🐈‍⬛🔮**
 
 ## Application Features
 
 The following REQUIRED features are completed:
 
-- [x] Change profile name to your name
-- [x] Change profile bio text to a personal bio about yourself
-- [x] Modify hobby section to include your top three (3) hobbies
+- [X] Make an API call to an API of your choice using AsyncHTTPClient
+- [X] Display at least two (2) pieces of data for each API entry retrieved
+- [X] A working Button requests a new API entry and updates the data displayed
 
-The following STRETCH features are implemented:
+## API Choice
 
-- [x] Re-brand the app by modifying the UI
-- [x] Modify the profile image by uploading a new image drawable
-
-The following EXTRA features are implemented:
-
-- [x] List anything else that you added to improve the app!
+My chosen API for this project is **https://dog.ceo/api/breeds/image/random** and **https://api.thecatapi.com/v1/images/search**.
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
+
 <p align="center">
-    <img src='https://imgur.com/JRbiqSb.gif' title='Video Demo' alt='Video Demo' />
+  <img src='https://imgur.com/EcGiHu7.gif' title='Video Demo' width='' alt='Video Demo' />
 </p>
+
 GIF created with **ScreenToGif**
 
 <!-- Recommended tools:
@@ -42,11 +39,11 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-- **Understanding of ConstraintLayout:** Enables complex layouts with efficient flat hierarchy.
-- **CardView Usage:** Shows how to add visual styling like elevation and rounded corners.
-- **Resource Management:** Use of dimension, color, and string resources for consistent styling and easy maintenance.
-- **View Positioning with Constraints:** Demonstrates positioning views within ConstraintLayout using various constraints.
-- **Text and Image Customization:** Techniques for customizing text appearance and setting image resources.
+- **API Integration:** Utilizes external APIs (Dog CEO's Dog API and The Cat API) to fetch random pet images, demonstrating how to work with JSON data in Android.
+- **Asynchronous Networking:** Implements AsyncHttpClient for making network requests, highlighting asynchronous programming techniques for non-blocking operations.
+- **Image Loading:** Uses Glide for efficient image loading and display within the app, showcasing the use of third-party libraries for improved performance and user experience.
+- **UI Interaction:** Features a user interface with a button that triggers the loading of new pet images, exemplifying basic UI element interactions in Android development.
+- **Random Selection Logic:** Incorporates a simple random selection mechanism to alternate between dog and cat images, demonstrating basic logic implementation in app functionality.
 
 ## License
 
